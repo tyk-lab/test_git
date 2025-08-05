@@ -1,0 +1,7 @@
+﻿ItemNumber,ParentNumber,PartNumber,Description,HierarchyLevel,ParentItemNumber,Category,ItemName,ChineseName,Status,Quantity,SpareQuantity,UnitPrice,TotalPrice,DeliveryDate,MinimumOrderQuantity,AirBox,Packaging,Label,Resource,Notes,CustomField1,CustomField2,CustomField3,CustomField4,CustomField5,CustomField6,CustomField7,CustomField8,CustomField9,ResourceFilePath,ResourceFileName,ResourceFileType,IsHighlighted
+IT001,,PN001,主装配体,0,,装配件,PN001,主装配体,已确认,1,0,0,0,,1,,,,,主要装配体，包含多个子部件,,,,,,,,,,,,,False
+IT002,IT001,PN002,支撑架,1,IT001,结构件,PN002,支撑架,初步确认,2,0,0,0,,1,,,,,支撑主体结构,,,,,,,,,,,,,False
+IT004,IT002,PN004,固定螺栓,2,IT002,标准件,PN004,固定螺栓,未处理,8,0,0,0,,1,,,,,标准螺栓,,,,,,,,,,,,,False
+IT003,IT001,PN003,连接板,1,IT001,连接件,PN003,连接板,待确认,4,0,0,0,,1,,,,,用于连接各部件,,,,,,,,,,,,,False
+IT005,,PN005,电气组件,0,,电气件,PN005,电气组件,待确认,1,0,0,0,,1,,,,,电气控制相关组件,,,,,,,,,,,,,False
+IT006,,PN006,新建条目,0,,通用,PN006,新建条目,未处理,1,0,0,0,,1,,,,,,,,,,,,,,,,,,False

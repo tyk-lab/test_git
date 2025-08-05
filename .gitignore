@@ -1,0 +1,39 @@
+﻿# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# System files
+Thumbs.db
+.DS_Store
+
+# BOM Manager backup files
+/bak
+
+# DVC files - track .dvc files but ignore managed content
+/Attachments
+.dvcignore
+
+# DVC tracking files should be committed to Git
+# Only ignore DVC managed content, not .dvc files themselves
+
+# DVC: Ensure .dvc directory is tracked
+!.dvc
+
+# DVC cache and temp files (should not be committed)
+.dvc/cache/
+.dvc/tmp/
+.dvc/state
+.dvc/state-journal
+.dvc/updater
+.dvc/updater.lock
+.dvc/lock
